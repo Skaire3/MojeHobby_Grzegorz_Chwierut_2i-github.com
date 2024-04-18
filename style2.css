@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Elden2.jpg');
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content {
+    flex: 1;
+}
+#dane{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Protest Strike', sans-serif;
+}
+*{
+    scroll-behavior: smooth;
+}
+h1:hover{
+    color: gold;
+}
+h2:hover{
+    color: gold;
+}
+h2{
+    color: #eecc77;
+    text-shadow: wheat 1px 1px 1px;
+}
+header {
+    background-color: #24a9ad;
+    text-shadow: black 2px 5px 5px;
+    color: white;
+    padding: 20px;
+    margin: center;
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+#linki{
+    background-color: #53539f;
+    padding: 10px 0;
+}
+#linki ul li a{
+    color: white;
+}
+#Postacie{
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+#marika{ 
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+#malenia{ 
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+#malena{ 
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    opacity: 85%;
+    padding-bottom: 50px;
+}
+#godfrey{ 
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+#rani{ 
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#marika img{
+    opacity: 100%;
+}
+#moje{
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+#raski{
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+#lore{
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+#steam{
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+#wideo{
+    border: #102f30 dotted 3px;
+    background-color: rgba(0,0,0,1);
+    margin-left: 650px;
+    margin-right: 650px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    opacity: 85%;
+}
+table{
+    opacity: 100%;
+    margin-left: 195px;
+    border-collapse: separate;
+}
+table tr th img{
+    height: 100%;
+}
+table,th,td{
+    border: 2px solid #102f30;
+    border-spacing: 1px;
+}
+td{
+    empty-cells: show;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #eecc77;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+section {
+    margin-bottom: 20px;
+}
+a{
+    color: wheat;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+progress{
+    clear: both;
+    display: block;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+    height: 5px;
+    z-index: 0;
+    opacity: 0.5;
+}
+nav button{
+    background: none;
+    border: 1px solid white;
+    position: relative;
+    top: -70px;
+    width: 10%;
+    height: 18%;
+    color: white;
+    border-radius: 50px;
+    background: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+video{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px gray;
+    width: 480px;
+    height: 270px;
+}
+#powrot{
+    color: white;
+    float: right;
+}
+nav ul li a:hover {
+    color: plum;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+header h1 {
+    animation: blink 2s infinite alternate;
+}
